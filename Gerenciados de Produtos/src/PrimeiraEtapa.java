@@ -6,6 +6,9 @@ import java.util.Scanner;
 public class PrimeiraEtapa {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        ArrayList<Object> produtos = new ArrayList<>();
+        int proximoId = 1;
+        
         while (true) {
             System.out.println("Escolha uma opção: ");
             System.out.println("\n1. Cadastrar produto");
